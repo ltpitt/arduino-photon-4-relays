@@ -2,7 +2,7 @@
 This code is used to control a 4 relay board with you Arduino / Photon / Other compatible hardware
 
 # Testing
-After deploying your code use this command to trigger it (example) from a Linux box:  
+After deploying your code use this command to trigger it (example) from a Linux box, please add your device id and access token:  
 
 ```bash
 curl https://api.particle.io/v1/devices/YOUR_DEVICE_ID/changeRelayS \
