@@ -1,7 +1,7 @@
 # arduino-photon-4-relays  
 This code is used to control a 4 relay board with you Arduino / Photon / Other compatible hardware
 
-# Test your code  
+# Testing
 After deploying your code use this command to trigger it (example) from a Linux box:  
 
 ```bash
