@@ -14,6 +14,7 @@ https://www.amazon.de/dp/B00PQC34E6/ref=pe_386171_151021841_TE_item
 -------------*/
 
 
+/////////////////////////////
 // Declaring changeRelayS function
 int changeRelayS(String command)
 {
@@ -56,7 +57,8 @@ int changeRelayS(String command)
 
 }
 
-
+/////////////////////////////
+//SETUP
 void setup() {
 // Initialize all pins to receive commands
     pinMode(D0, OUTPUT);
@@ -74,6 +76,8 @@ void setup() {
     Particle.function("changeRelayS", changeRelayS);
 }
 
+////////////////////////////
+//LOOP
 void loop() {
 
 }
