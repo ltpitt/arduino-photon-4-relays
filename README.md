@@ -9,3 +9,4 @@ curl https://api.particle.io/v1/devices/YOUR_DEVICE_ID/changeRelayS \
      -d access_token=YOUR_ACCESS_TOKEN \
      -d "D0,on"
 ```
+You can also use, from Linux / Unix operating system the provided changeRelayS.sh
