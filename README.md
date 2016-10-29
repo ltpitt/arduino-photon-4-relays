@@ -9,4 +9,10 @@ curl https://api.particle.io/v1/devices/YOUR_DEVICE_ID/changeRelayS \
      -d access_token=YOUR_ACCESS_TOKEN \
      -d "D0,on"
 ```
-You can also use, from Linux / Unix operating system the provided changeRelayS.sh
+
+You can also use, to achieve this result (from Linux / Unix operating system) the provided changeRelayS.sh  
+
+Here's an example to turn off relay 2 off:  
+```bash
+changeRelayS.sh 2 off
+```
