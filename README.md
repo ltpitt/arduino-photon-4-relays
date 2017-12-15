@@ -1,6 +1,7 @@
 # c-arduino-photon-4-relays 
 This code is used to control a 4 relay board with you Arduino / Photon / Other compatible hardware:  
-http://bit.ly/2jV8xoW
+http://bit.ly/2jV8xoW  
+http://amzn.to/2zftSRH  
 
 # Testing
 After uploading the code to your Photon use this command to trigger it (example) from a Linux box, please add your device id and access token:  
