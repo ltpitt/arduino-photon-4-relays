@@ -1,10 +1,11 @@
-# c-arduino-photon-4-relays 
-This code is used to control a 4 relay board with you Arduino / Photon / Other compatible hardware:  
+# Particle Photon (Arduino compatible) code to control 4 relays
+This code is used to control a 4 relay board with your Arduino / Photon / Other compatible hardware.  
+Here's the board I have used, connecting it to a Particle Photon:  
 http://bit.ly/2jV8xoW  
 http://amzn.to/2zftSRH  
 
-# Testing
-After uploading the code to your Photon use this command to trigger it (example) from a Linux box, please add your device id and access token:  
+# How to test
+After uploading the code to your Photon use this command to trigger it (example) from a Linux box, please add your device id and access token. 
 
 ```bash
 curl https://api.particle.io/v1/devices/YOUR_DEVICE_ID/changeRelayS \
