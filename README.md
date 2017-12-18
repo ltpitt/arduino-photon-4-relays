@@ -1,6 +1,8 @@
 # Particle Photon (Arduino compatible) code to control 4 relays
 This code is used to control a 4 relay board with your Arduino / Photon / Other compatible hardware.  
+
 Here's the board I have used, connecting it to a Particle Photon:  
+
 http://bit.ly/2jV8xoW  
 http://amzn.to/2zftSRH  
 
